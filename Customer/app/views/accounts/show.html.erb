@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Account id:</strong>
+  <%= @account.account_Id %>
+</p>
+
+<p>
+  <strong>Account type:</strong>
+  <%= @account.account_type %>
+</p>
+
+<p>
+  <strong>Open date:</strong>
+  <%= @account.open_date %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @account.customer_id %>
+</p>
+
+<p>
+  <strong>Customer name:</strong>
+  <%= @account.customer_name %>
+</p>
+
+<p>
+  <strong>Branch:</strong>
+  <%= @account.branch %>
+</p>
+
+<p>
+  <strong>Minor indicator:</strong>
+  <%= @account.minor_indicator %>
+</p>
+
+<%= link_to 'Edit', edit_account_path(@account) %> |
+<%= link_to 'Back', accounts_path %>
